@@ -44,9 +44,7 @@
   height: 100%;
   width: 100%;
   top: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
   position: absolute;
   place-items: center;
 }
