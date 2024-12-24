@@ -44,7 +44,7 @@
   height: 100%;
   width: 100%;
   top: 1.5rem;
-  display: grid;
+  display: flex;
   position: absolute;
   place-items: center;
 }
@@ -99,10 +99,13 @@
   font-size: 12px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   body {
     font-size: 14px;
-    background-color: lightgray;
+    padding: 10px;
+  }
+  .container {
+    flex-direction: column;
   }
 }
 
