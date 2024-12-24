@@ -76,11 +76,6 @@ let trackList = [
     name: 'The Only One',
     artist: 'Reyne',
     path: './music/the only one.mp3',
-  },
-  {
-    name: 'Cintanya Aku',
-    artist: 'Tiara Andini & Arsy Widianto',
-    path: './music/cintanya aku.m4a',
   }
 ];
 
